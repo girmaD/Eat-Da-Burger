@@ -6,13 +6,13 @@ const burgers = {
             cb(res)
         });
     },
-    inserOne: function(colName, colValue, cb) {
+    insertOne: function(colName, colValue, cb) {
         orm.insertOne('burgers', colName, colValue, (res) => {
             cb(res)
         });
     },
-    updateOne: function(colName, colValue, condition, cb) {
-        orm.updateOne('burgers', colName, colValue, condition, (res) => {
+    updateOne: function(objColVals, condition, cb) {
+        orm.updateOne('burgers', objColVals, condition, (res) => {
             cb(res)
         });
     }       
