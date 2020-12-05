@@ -23,6 +23,7 @@ $(function() {
     $(".devour_it").on("click", function(event) {
         let id = $(this).data("id");
         // let devoured = true;
+        console.log(id)
     
         let devouredObj = {
           devoured: 1
@@ -39,6 +40,6 @@ $(function() {
             location.reload();
           }
         );
-      });
+    });
     
 })
