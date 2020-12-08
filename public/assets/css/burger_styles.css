@@ -1,7 +1,8 @@
 body {
-    background-color: #FADA5E;
+    background-color: #e5cb7a;
     
 }
+
 
 ul li {
     list-style: none;
@@ -12,4 +13,14 @@ ul li {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
+}
+
+#burger {
+    margin: 20px
+}
+.jumbotron {
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    background-color: #450101;
 }
