@@ -3,7 +3,11 @@ $(function() {
     $(".create-form").on("submit", function(event) {
         // Make sure to preventDefault on a submit event.
         event.preventDefault();
-    
+
+        if($("#burger").val().trim() == "" ) {
+          alert("Please enter a burger name before you add it!!!")
+          return;
+        }
         var newBurger = {
           name: $("#burger").val().trim()                   
         };
