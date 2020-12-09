@@ -24,3 +24,8 @@ ul li {
     color: white;
     background-color: #450101;
 }
+
+.btn-outline-secondary:hover {
+    background-color: #e5cb7a !important;
+    text-decoration: none;    
+}
